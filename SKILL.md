@@ -3,9 +3,7 @@ name: schematize-seo-writing
 metadata:
   version: 0.1.1
 description: >-
-  Redação SEO em 4 passos: outline H1/H2/H3 (title até 60), briefings, checklist de conexão e texto em parágrafos
-  curtos, validado por checador. Use ao pedir artigo para ranquear ou content brief. Estratégia/técnico:
-  schematize-seo.
+  Redação SEO em 4 passos: outline, briefing, checklist de conexão e texto validado por checador. Use ao pedir artigo para ranquear ou content brief. Estratégia: schematize-seo.
 ---
 <!-- cross-skill: keywords-conteudo.md, dados-estruturados.md, on-page.md -> schematize-seo -->
 
