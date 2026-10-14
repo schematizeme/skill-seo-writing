@@ -3,6 +3,14 @@
 Todas as mudanças relevantes deste pacote, no formato [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/),
 com versionamento [SemVer](https://semver.org/lang/pt-BR/).
 
+## [0.1.1] — 2026-10-14
+Integração ao catálogo (grafo, skills.json, herdados) e correção do texto de precedência herdado.
+
+### Alterado
+- Blocos herdados ressincronizados com a `schematize-engineering` v0.27.0 (`tools/sync-herdados.mjs`): orquestração com a regra de imagem (nunca pelo Claude; detecta Codex/Gemini e pergunta ao usuário qual usar, Codex como sugestão) e `schematize overdev delegar` (comando do app) no lugar do falso nome de skill `schematize-overdev`.
+- Bloco "Precedência e herança" passa à variante `dominio`: o texto antigo dizia que os comandos `/seow-*` "cobrem só o piso da linguagem", o que é falso para skill de domínio/ferramenta.
+- `skill.toml`: `order` 33 -> 36 (colidia com a `design`; a ordem no catálogo é única).
+
 ## [0.1.0] — 2026-10-14
 Primeira versão. Nasce do documento "Skill SEO-Redação v1.1" do usuário, escrito para outro modelo e agora adaptado ao Claude Code, porque a `schematize-seo` governa estratégia e técnico mas não tinha quem cuidasse da **redação** do texto, e regra de redação só em prosa não se verifica.
 

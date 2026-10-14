@@ -2,7 +2,7 @@ slug = "seo-writing"
 name = "schematize-seo-writing"
 tag = "SEO · redação"
 status = "beta"
-order = 33
+order = 36
 current_version = "0.1.0"
 href = "/seo-writing"
 
